@@ -1,27 +1,28 @@
-# BundlerNodeapp
+packageing nodejs code :
+npm pack --> .tgz file
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+---
 
-## Development server
+Install this custom created nodejs .tgz Proj inside your agnular project
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- copy and paste that <.tgz_Proj> in parallel to package.json
+- npm i <.tgz_Proj>
 
-## Code scaffolding
+ex-
+npm i bundleproject-1.0.0.tgz
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+----\***\*\*\*\*\*\*\***\*\*\*\***\*\*\*\*\*\*\***---
 
-## Build
+Publishing your node project to npm :
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- npm link
 
-## Running unit tests
+- npm login
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- npm publish
 
-## Running end-to-end tests
+(Pusblished to your npm account)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Now go to your angular project, and install the package :
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- npm i bundleproject
